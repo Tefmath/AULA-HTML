@@ -1,0 +1,17 @@
+.todas{
+	background-color:pink;
+	border:solid 2px aqua;  /* tipo da borda, tamanho e cor */
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(2,50%);
+	grid-template-rows: repeat(2,50%);
+	width: 100%;
+	height:100%;
+	/* place-items:center;
+	background-color:grey;
+	position:relative;
+	font-family: 'Permanent Marker', cursive; */
+}
+
